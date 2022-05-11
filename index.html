@@ -4,7 +4,215 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <script
+      src="https://kit.fontawesome.com/719b8bf3d5.js"
+      crossorigin="anonymous"
+      async
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/banner.css" />
+    <link rel="stylesheet" href="./assets/css/about_me.css" />
+    <link rel="stylesheet" href="./assets/css/projects.css" />
+    <link rel="stylesheet" href="./assets/css/skills.css" />
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+
+    <title>(Vitor Manoel);</title>
   </head>
-  <body></body>
+  <body>
+    <header class="">
+      <h1><a href="#">(Vitor Manoel);</a></h1>
+
+      <nav>
+        <ul class="menu">
+          <li class="menu__option"><a href="#">about me</a></li>
+          <li class="menu__option"><a href="#">projects</a></li>
+          <li class="menu__option"><a href="#">skills</a></li>
+          <li class="menu__option"><a href="#">contact</a></li>
+        </ul>
+      </nav>
+
+      <ul class="language">
+        <li class="language__option">
+          <a href="#"><span title="English">&#x1F1FA;&#x1F1F8;</span></a>
+        </li>
+        <li class="language__option">
+          <a href="#"><span title="French">&#x1F1EB;&#x1F1F7;</span></a>
+        </li>
+        <li class="language__option">
+          <a href="#"><span title="Portuguese">&#x1F1E7;&#x1F1F7;</span></a>
+        </li>
+      </ul>
+    </header>
+
+    <section class="banner">
+      <p>full stack developer</p>
+    </section>
+
+    <main class="container">
+      <div class="scroll">
+        <p>keep scrolling</p>
+        <i class="scroll_arrow"></i>
+      </div>
+
+      <section class="about_me">
+        <h2>about me</h2>
+        <section class="information">
+          <article class="information__text">
+            <p>
+              I am a Computer Science student at Federal University of Catalão,
+              I am a full stack developer. I had my first computer when I was
+              eleven, since that day I want to understand how this machine
+              works, and how I can communicate with it. Here I keep some
+              personal projects that I developed in University or just for fun.
+            </p>
+
+            <div class="information__text___button">
+              <button>Portifolio</button>
+
+              <a href="#">/resume</a>
+            </div>
+
+            <ul class="information__text___social">
+              <li>
+                <a href="#"
+                  ><i class="social__media fa-brands fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="social__media fa-brands fa-github"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"><i class="social__media fa-solid fa-at"></i></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="social__media fa-brands fa-telegram"></i
+                ></a>
+              </li>
+            </ul>
+          </article>
+          <figure class="information__image">
+            <img src="./assets/img/vitor.png" alt="Vitor's picture" />
+            <figcaption>This is me.</figcaption>
+          </figure>
+        </section>
+      </section>
+
+      <section class="projects">
+        <h2>projects</h2>
+        <div class="projects__items">
+          <div class="projects__items___card">
+            <img src="./assets/img/school-system.png" alt="C Language Coding" />
+            <div class="project__items___card_info">
+              <h4>School System</h4>
+              <p>[C]</p>
+              <a href="#">/link</a>
+            </div>
+          </div>
+          <div class="projects__items___card">
+            <img src="./assets/img/pet-shop.png" alt="Java Language Coding" />
+            <div class="project__items___card_info">
+              <h4>PetShop Software</h4>
+              <p>[Java]</p>
+              <a href="#">/link</a>
+            </div>
+          </div>
+          <div class="projects__items___card">
+            <img src="./assets/img/van-club.png" alt="Van Club Site Layout" />
+            <div class="project__items___card_info">
+              <h4>Van Club</h4>
+              <p>[HTML 5, CSS 3, JavaScript]</p>
+              <a href="#">/link</a>
+            </div>
+          </div>
+          <div class="projects__items___card">
+            <img src="./assets/img/ufcat.png" alt="UFCAT Application Layout" />
+            <div class="project__items___card_info">
+              <h4>UFCAT Software</h4>
+              <p>[Flutter]</p>
+              <a href="#">/link</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills">
+        <h2>skills</h2>
+        <div class="skill__list">
+          <ul class="skill__list___icon">
+            <li>
+              <a href="#"><i class="fa-brands fa-html5"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-css3"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-react"></i></a>
+            </li>
+            <li>
+              <a href="#"
+                ><span class="material-symbols-outlined"> flutter </span></a
+              >
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-java"></i></a>
+            </li>
+            <li><a href="#"><i class="fa-solid fa-c"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-python"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-js"></i></a></li>
+            <li><a href="#"><span class="material-symbols-outlined">
+              database
+              </span></a></li>
+            <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="contact">
+        <h2>contact</h2>
+        
+        <div class="contact__section">
+          <p>Do you want to talk? You can send me a message here &#128073;</p>
+          <ul class="information__text___social">
+            <li>
+              <a href="#"
+                ><i class="social__media fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="social__media fa-brands fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"><i class="social__media fa-solid fa-at"></i></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="social__media fa-brands fa-telegram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; (Vitor Manoel);</p>
+    </footer>
+  </body>
 </html>

@@ -1,0 +1,26 @@
+.banner {
+    margin: auto;
+    width: 98vw;
+    height: 70vh;
+    text-align: center;
+}
+
+.banner p {
+    line-height: 70vh;
+    font-size: 4rem;
+    text-transform: capitalize;
+}
+
+.scroll {
+    text-align: center;
+    padding: 4rem;
+}
+
+.scroll_arrow {
+    border: solid #EEEEEE;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg); 
+}

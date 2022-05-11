@@ -1,0 +1,39 @@
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.menu__option{
+    display: inline-block;
+    padding-left: 2rem;
+}
+
+.menu__option:first-child {
+    padding-left: 0;
+}
+
+.menu__option::first-letter {
+    text-transform: uppercase;
+}
+
+.menu__option:hover {
+    text-decoration: 2px underline;
+}
+
+.language__option {
+    display: inline-block;
+    padding-left: 2rem;
+    text-transform: uppercase;
+}
+
+.language__option:first-child {
+    padding-left: 0;
+}
+
+.language__option span {
+    font-size: 25px;
+}

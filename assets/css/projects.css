@@ -1,0 +1,37 @@
+.projects__items{
+    margin: 3rem 0;
+    display: grid;
+    gap: 2rem;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    justify-items: center;
+    width: 100%;
+}
+
+.projects__items___card {
+    width: 22rem;
+    margin-bottom: 1rem;
+}
+
+.projects__items___card img {
+    border-radius: 5px;
+    max-width: 300px;
+    margin-bottom: .2rem;
+}
+
+.project__items___card_info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5rem;
+    justify-content: space-between;
+}
+
+.project__items___card_info a {
+    color: #9AEBA3;
+    text-decoration: underline;
+}
+
+.project__items___card_info p {
+    color: #707070;
+    grid-row: 1;
+    grid-column: 1 / span 2;
+}

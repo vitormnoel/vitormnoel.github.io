@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.html {
+    font-size: 16px;
+}
+
+body {
+    background: #222222;
+    color: #EEEEEE;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica;
+}
+
+a{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+h2{
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+h2::first-letter {
+    text-transform: uppercase;
+}
+
+.container {
+    padding: 0 10rem;
+}
