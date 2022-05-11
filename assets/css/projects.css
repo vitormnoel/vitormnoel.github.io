@@ -1,20 +1,18 @@
 .projects__items{
-    margin: 3rem 0;
     display: grid;
     gap: 2rem;
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
     justify-items: center;
-    width: 100%;
 }
 
 .projects__items___card {
-    width: 22rem;
+    width: 300px;
     margin-bottom: 1rem;
 }
 
 .projects__items___card img {
     border-radius: 5px;
-    max-width: 300px;
+    max-width: 18.75rem;
     margin-bottom: .2rem;
 }
 
@@ -32,6 +30,5 @@
 
 .project__items___card_info p {
     color: #707070;
-    grid-row: 1;
-    grid-column: 1 / span 2;
+    text-align: end;
 }

@@ -1,3 +1,7 @@
+.about_me h2 {
+    margin-bottom: 0;
+}
+
 .information {
    display: grid;
    grid-template-columns: 1fr .5fr;
@@ -6,7 +10,6 @@
 }
 
 .information__text {
-    margin: 2rem 0;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
 
@@ -43,8 +46,8 @@
 }
 
 .information__image img{
-    width: 350px;
-    height: 400px;
+    max-width: 300px;
+    max-height: 3500px;
     border-radius: 5px;
 }
 

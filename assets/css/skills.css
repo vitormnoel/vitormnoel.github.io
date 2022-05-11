@@ -1,18 +1,21 @@
-.skill__list {
-    height: 30vh;
-    line-height: 30vh;
-}
-
 .skill__list___icon {
-    margin: 2rem 0;
     text-align: center;
 }
 
 .skill__list___icon li {
     display: inline-block;
-    margin-left: 1.5rem;
+    margin-left: 2.5rem;
+}
+
+.skill__list___icon li:first-of-type {
+    margin-left: 0;
 }
 
 .skill__list___icon a {
     font-size: 2rem;
+}
+
+.skill__list___icon li p {
+    margin-top: .5rem;
+    text-transform: capitalize;
 }
