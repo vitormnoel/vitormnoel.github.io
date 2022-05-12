@@ -1,12 +1,11 @@
 .skill__list___icon {
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 2rem;
     justify-items: center;
     align-items: center;
 }
-
 
 .skill__list___icon li:first-of-type {
     margin-left: 0;
@@ -18,6 +17,7 @@
 
 .skill__list___icon li p {
     margin-top: .5rem;
+    font-size: .9rem;
     text-transform: capitalize;
 }
 
@@ -25,6 +25,8 @@
     color: #9AEBA3;
 }
 
-@media only screen and (max-width: 1200px){
-    
-}  
+@media only screen and (max-width: 670px) {
+    .skill__list___icon {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
