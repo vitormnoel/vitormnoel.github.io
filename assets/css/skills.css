@@ -19,3 +19,7 @@
     margin-top: .5rem;
     text-transform: capitalize;
 }
+
+.skill__list___icon a:hover {
+    color: #9AEBA3;
+}

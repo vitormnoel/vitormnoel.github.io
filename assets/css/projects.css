@@ -28,7 +28,12 @@
     text-decoration: underline;
 }
 
+.project__items___card_info a:hover {
+    color: #707070;
+}
+
 .project__items___card_info p {
     color: #707070;
     text-align: end;
+    font-size: .9rem;
 }

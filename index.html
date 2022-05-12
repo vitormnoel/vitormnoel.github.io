@@ -28,79 +28,80 @@
     <link rel="stylesheet" href="./assets/css/skills.css" />
     <link rel="stylesheet" href="./assets/css/contact.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/animation.scss">
 
-    <title>(Vitor Manoel);</title>
+    <title>(Vitor Manoel); - Portifolio</title>
   </head>
   <body>
-    <header class="">
+    <header>
       <h1><a href="#">(Vitor Manoel);</a></h1>
 
       <nav>
         <ul class="menu">
-          <li class="menu__option"><a href="#">about me</a></li>
-          <li class="menu__option"><a href="#">projects</a></li>
-          <li class="menu__option"><a href="#">skills</a></li>
-          <li class="menu__option"><a href="#">contact</a></li>
+          <li class="menu__option"><a href="#about_me">about me</a></li>
+          <li class="menu__option"><a href="#projects">projects</a></li>
+          <li class="menu__option"><a href="#skills">skills</a></li>
+          <li class="menu__option"><a href="#contact">contact</a></li>
         </ul>
       </nav>
 
       <ul class="language">
         <li class="language__option">
-          <a href="#"><span title="English">&#x1F1FA;&#x1F1F8;</span></a>
+          <a href="#" target="_blank"><span title="English">&#x1F1FA;&#x1F1F8;</span></a>
         </li>
         <li class="language__option">
-          <a href="#"><span title="French">&#x1F1EB;&#x1F1F7;</span></a>
+          <a href="#" target="_blank"><span title="French">&#x1F1EB;&#x1F1F7;</span></a>
         </li>
         <li class="language__option">
-          <a href="#"><span title="Portuguese">&#x1F1E7;&#x1F1F7;</span></a>
+          <a href="#" target="_blank"><span title="Portuguese">&#x1F1E7;&#x1F1F7;</span></a>
         </li>
       </ul>
     </header>
-
-    <section class="banner">
-      <p>full stack developer</p>
-    </section>
+    <div class="banner">
+      <p>full stack developer.</p>
+    </div>
 
     <main class="container">
       <div class="scroll">
         <p>keep scrolling</p>
-        <i class="scroll_arrow"></i>
+        <a href="#about_me"><i class="scroll_arrow"></i></a>
       </div>
 
-      <section class="about_me">
+      <section class="about_me" id="about_me">
         <h2>about me</h2>
         <section class="information">
           <article class="information__text">
             <p>
               I am a Computer Science student at Federal University of Catalão, and I like computers.
-              I am (trying to be) a Full Stack developer. My love history with computers beging I had my first computer when I was
-              eleven, since that day I want to understand how this machine
-              works, and how I can communicate with it. Here I keep some
-              personal projects that I developed in University or just for fun.
+              I am (trying to be) a Full Stack developer. My love history with computers beging when I had my first computer, I was
+              eleven, since that day I wanted to understand how this machine
+              works, and how I would be able to communicate with it. I am still in this jorney!
+
+              <span>Here, I keep some projects that I developed in University or just for fun.</span>
             </p>
 
             <div class="information__text___button">
-              <button>Portifolio</button>
+              <a href="#" target="_blank" id="portifolio">Portifolio</a>
 
-              <a href="#">/resume</a>
+              <a id="resume" href="https://forms.gle/UdfzkWGphdU8Bv6Z8" target="_blank">/resume</a>
             </div>
 
             <ul class="information__text___social">
               <li>
-                <a href="#"
+                <a href="https://www.linkedin.com/in/vitormnoel/" target="_blank"
                   ><i class="social__media fa-brands fa-linkedin-in"></i
                 ></a>
               </li>
               <li>
-                <a href="#"
+                <a href="https://github.com/vitormnoel" target="_blank"
                   ><i class="social__media fa-brands fa-github"></i
                 ></a>
               </li>
               <li>
-                <a href="#"><i class="social__media fa-solid fa-at"></i></a>
+                <a href="mailto: manoelvitor@discente.ufg.br" target="_blank"><i class="social__media fa-solid fa-at"></i></a>
               </li>
               <li>
-                <a href="#"
+                <a href="https://t.me/vitormnoel" target="_blank"
                   ><i class="social__media fa-brands fa-telegram"></i
                 ></a>
               </li>
@@ -113,7 +114,7 @@
         </section>
       </section>
 
-      <section class="projects">
+      <section class="projects" id="projects">
         <h2>projects</h2>
         <div class="projects__items">
           <div class="projects__items___card">
@@ -121,7 +122,7 @@
             <div class="project__items___card_info">
               <h4>School System</h4>
               <p>[C]</p>
-              <a href="#">/link</a>
+              <a href="#" target="_blank">/link</a>
             </div>
           </div>
           <div class="projects__items___card">
@@ -129,7 +130,7 @@
             <div class="project__items___card_info">
               <h4>PetShop Software</h4>
               <p>[Java]</p>
-              <a href="#">/link</a>
+              <a href="#" target="_blank">/link</a>
             </div>
           </div>
           <div class="projects__items___card">
@@ -137,7 +138,7 @@
             <div class="project__items___card_info">
               <h4>Van Club</h4>
               <p>[HTML5, CSS3, JS]</p>
-              <a href="#">/link</a>
+              <a href="#" target="_blank">/link</a>
             </div>
           </div>
           <div class="projects__items___card">
@@ -145,74 +146,100 @@
             <div class="project__items___card_info">
               <h4>UFCAT Software</h4>
               <p>[Flutter]</p>
-              <a href="#">/link</a>
+              <a href="#" target="_blank">/link</a>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="skills">
+      <section class="skills" id="skills">
         <h2>skills</h2>
         <div class="skill__list">
           <ul class="skill__list___icon">
             <li>
-              <a href="#"><i class="fa-brands fa-html5"></i></a>
-              <p>html 5</p>
+              <a href="#" target="_blank">
+              <i class="fa-brands fa-html5"></i>
+              <p>HTML 5</p>
+              </a>
             </li>
             <li>
-              <a href="#"><i class="fa-brands fa-css3"></i></a>
-              <p>css 3</p>
+              <a href="#" target="_blank">
+              <i class="fa-brands fa-css3"></i>
+              <p>CSS 3</p>
+              </a>
             </li>
             <li>
-              <a href="#"><i class="fa-brands fa-react"></i></a>
+              <a href="#" target="_blank">
+              <i class="fa-brands fa-react"></i>
               <p>react native</p>
+              </a>
             </li>
             <li>
-              <a href="#"
-                ><span class="material-symbols-outlined"> flutter </span></a
-              >
+              <a href="#" target="_blank">
+              <span class="material-symbols-outlined">flutter</span>
               <p>flutter</p>
+              </a>
             </li>
             <li>
-              <a href="#"><i class="fa-brands fa-java"></i></a>
+              <a href="#" target="_blank">
+                <i class="fa-brands fa-java"></i>
               <p>Java 8</p>
-            </li>
-            <li><a href="#"><i class="fa-solid fa-c"></i>
             </a>
-            <p>c</p>
-          </li>
-            <li><a href="#"><i class="fa-brands fa-python"></i></a>
-              <p>python</p></li>
-            <li><a href="#"><i class="fa-brands fa-js"></i></a>
-              <p>javaScript</p></li>
-            <li><a href="#"><span class="material-symbols-outlined">
-              database
-              </span></a><p>SQL</p></li>
-            <li><a href="#"><i class="fa-brands fa-github"></i></a><p>git hub</p></li>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fa-solid fa-c"></i>
+                <p>c</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fa-brands fa-python"></i>
+                <p>python</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fa-brands fa-js"></i>
+                <p>javaScript</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <span class="material-symbols-outlined">database</span>
+                <p>SQL</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+                <i class="fa-brands fa-github"></i></a>
+                <p>gitHub</p>
+              </a>
+            </li>
           </ul>
         </div>
       </section>
-      <section class="contact">
+      <section class="contact" id="contact">
         <h2>contact</h2>
         
         <div class="contact__section">
           <p>Do you want to talk? You can send me a message here &#128073;</p>
           <ul class="information__text___social">
             <li>
-              <a href="#"
+              <a href="https://www.linkedin.com/in/vitormnoel/" target="_blank"
                 ><i class="social__media fa-brands fa-linkedin-in"></i
               ></a>
             </li>
             <li>
-              <a href="#"
+              <a href="https://github.com/vitormnoel" target="_blank"
                 ><i class="social__media fa-brands fa-github"></i
               ></a>
             </li>
             <li>
-              <a href="#"><i class="social__media fa-solid fa-at"></i></a>
+              <a href="mailto: manoelvitor@discente.ufg.br" target="_blank"><i class="social__media fa-solid fa-at"></i></a>
             </li>
             <li>
-              <a href="#"
+              <a href="https://t.me/vitormnoel" target="_blank"
                 ><i class="social__media fa-brands fa-telegram"></i
               ></a>
             </li>
@@ -221,8 +248,8 @@
       </section>
     </main>
 
-    <footer>
-      <p>&copy; (Vitor Manoel); - 2022</p>
+    <footer id="footer">
+      <a  href="#" target="_blank"></a>&copy; (Vitor Manoel); - 2022</a>
     </footer>
   </body>
 </html>

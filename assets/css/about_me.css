@@ -15,9 +15,12 @@
 
     justify-items: center;
     align-items: center;
+
+    line-height: 1.6rem;
+    padding: 2rem 0;
 }
 
-.information__text___button button {
+#portifolio {
     margin-right: 6rem;
 
     border: 1px solid #EEEEEE;
@@ -27,9 +30,11 @@
     padding: 0.6rem 2rem;
     font-size: 1rem;
     cursor: pointer;
+
+    text-decoration: none;
 }
 
-.information__text___button button:hover {
+#portifolio:hover {
     border-color: #9AEBA3;
     color: #9AEBA3;
 
@@ -39,6 +44,10 @@
 .information__text___button a {
     color: #9AEBA3;
     text-decoration: underline;
+}
+
+.information__text___button a:hover {
+    color: #EEEEEE;
 }
 
 .information__text___social li{
@@ -52,14 +61,22 @@
 }
 
 .information__image figcaption {
+    font-size: .9rem;
     text-align: start;
 }
 
 .information__text___social li{
-    font-size: 2rem;
     margin-left: 1.5rem;
+}
+
+.information__text___social li a {
+    font-size: 2rem !important;
 }
 
 .information__text___social li:first-of-type{ 
     margin-left: 0;
+}
+
+.social__media:hover {
+    color: #9AEBA3;
 }

@@ -2,3 +2,8 @@ footer {
     text-align: center;
     margin: 6rem 0 2rem 0;
 }
+
+#footer{
+    font-size: .9rem;
+    color: #707070;
+}

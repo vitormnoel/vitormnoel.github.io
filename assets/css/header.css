@@ -1,20 +1,22 @@
 header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    height: 4rem;
-    line-height: 4rem;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
+    align-items: center;
+    justify-content: center;
 }
 
-h1 {
-    font-size: 1.9rem;
+h1 a {
+    font-size: 1.9rem !important;
+    font-weight: 500;
 }
 
 .menu__option{
     display: inline-block;
     padding-left: 2rem;
 }
+
 
 .menu__option:first-child {
     padding-left: 0;
@@ -24,8 +26,8 @@ h1 {
     text-transform: uppercase;
 }
 
-.menu__option:hover {
-    text-decoration: 2px underline;
+.menu__option a:hover {
+    color: #9AEBA3;
 }
 
 .language__option {
