@@ -43,3 +43,32 @@ h1 a {
 .language__option span {
     font-size: 25px;
 }
+
+@media only screen and (max-width: 1200px){
+    header {
+        grid-template: 1fr / repeat(2, 1fr);
+    }
+
+    .menu {
+        margin-top: 1rem;
+    }
+
+    .language__option {
+        padding-left: .3rem;
+    }
+    
+    .language__option {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 670px){
+    header {
+        grid-template: repeat(2, 1fr) / 1fr;
+    }
+
+    .menu {
+        display: none;
+    }
+
+}

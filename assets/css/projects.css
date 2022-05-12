@@ -37,3 +37,10 @@
     text-align: end;
     font-size: .9rem;
 }
+
+
+@media only screen and (max-width: 1080px){
+    .projects__items{
+        grid-template: repeat(4, 1fr) /  1fr;
+    }
+}  

@@ -1,11 +1,12 @@
 .skill__list___icon {
     text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    justify-items: center;
+    align-items: center;
 }
 
-.skill__list___icon li {
-    display: inline-block;
-    margin-left: 2.5rem;
-}
 
 .skill__list___icon li:first-of-type {
     margin-left: 0;
@@ -23,3 +24,7 @@
 .skill__list___icon a:hover {
     color: #9AEBA3;
 }
+
+@media only screen and (max-width: 1200px){
+    
+}  

@@ -1,6 +1,0 @@
-.contact__section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    line-height: 100%;
-    align-items: center;
-}

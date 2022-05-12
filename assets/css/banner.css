@@ -13,7 +13,7 @@
 
 .scroll {
     text-align: center;
-    padding: 4rem;
+    padding-top: 3rem;
 }
 
 .scroll_arrow {
@@ -23,4 +23,18 @@
     padding: 12px;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg); 
+}
+
+
+@media only screen and (max-width: 1080px){
+    .scroll p {
+       display: none;
+    }
+}
+
+@media only screen and (max-width: 670px){
+    .banner p{
+        font-size: 2rem;
+        font-weight: 100;
+    }
 }

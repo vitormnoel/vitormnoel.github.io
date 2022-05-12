@@ -3,21 +3,23 @@
 }
 
 .information {
-   display: grid;
-   grid-template-columns: 1fr .5fr;
-   min-height: 400px;
-   gap: 8rem;
+    display: grid;
+    grid-template-columns: 1fr .5fr;
+    align-items: center;
+    min-height: 400px;
+    gap: 8rem;
 }
 
 .information__text {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
-
     justify-items: center;
-    align-items: center;
-
     line-height: 1.6rem;
     padding: 2rem 0;
+}
+
+.information__text span {
+    display: block;
+    margin: 1rem 0;
 }
 
 #portifolio {
@@ -41,6 +43,10 @@
     transition: 1s;
 }
 
+.information__text___button {
+    margin-top: 4rem;
+}
+
 .information__text___button a {
     color: #9AEBA3;
     text-decoration: underline;
@@ -52,6 +58,8 @@
 
 .information__text___social li{
     display: inline-block;
+
+    margin-top: 3rem;
 }
 
 .information__image img{
@@ -79,4 +87,15 @@
 
 .social__media:hover {
     color: #9AEBA3;
+}
+
+@media only screen and (max-width: 1080px){
+    .information {
+        display: block;
+        align-items: center;
+    }
+
+    .information__image {
+        display: none;
+    }
 }
