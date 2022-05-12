@@ -85,6 +85,10 @@
     margin-left: 0;
 }
 
+.information__text___social-invisible {
+    display: none;
+}
+
 .social__media:hover {
     color: #9AEBA3;
 }
