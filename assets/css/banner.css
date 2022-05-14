@@ -36,5 +36,11 @@
     .banner p{
         font-size: 2rem;
         font-weight: 100;
+        height: 65vh;
     }
+
+    .banner {
+        height: 65vh;
+    }
+    
 }
